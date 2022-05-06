@@ -1,0 +1,7 @@
+A proxy server is an **intermediate** piece of software or hardware that sit between the client and the server. **Clients connect to a proxy to make a request for a service like a web page, file or connection from the server.** Essentially, a proxy server is a piece of software or hardware that facilitates the request for resource from other servers on behalf of clients, thus anonymizing the client from the servers.
+
+Typically, forward proxies are used to **cache data, filter requests, log requests, or transform request**.
+
+In addition to coordinating requests from multiple servers, proxies can also optimize request traffic from a system-wide prespective. **Proxies can combine the same data access requests into one request and then return the result to the user**; this technique is called **collapsed forwarding**. Consider a request for the same data across several nodes, but the data is not in cache. By routing these requests through the proxy, they can be consolidated into one so that will only read data from the disk once.
+
+**Reverse proxy** A reverse proxy retrieves resources from one or more servers on behalf of a client. These resources are then returned to the client, appearing as if they orginated from the proxy server itself, this anonymizing the server. Contrary to the forward proxy, which hides the client's identity, a reverse proxy hides the server's identity.
